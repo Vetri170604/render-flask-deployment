@@ -8,7 +8,7 @@ import os
 # App Configuration
 # ====================
 app = Flask(__name__)
-app.secret_key = "your_secret_key"
+app.secret_key = "f6dac8bac04440e0274979b8ad02da69e80d37a284ced92bf9f8329e1827f59e"
 
 # SQLite DB Config
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
